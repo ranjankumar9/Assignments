@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    gap: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.filter{
+    display: grid;
+    align-items: flex-start;
+    width: 20%;
+    margin-top: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
+}
+.productdata{
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+}
+.productdata>select{
+    width: 180px;
+    padding: 10px;
+    margin-left: 30rem;
+
+}
+
